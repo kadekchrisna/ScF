@@ -18,6 +18,7 @@ import android.widget.TextView;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.PicassoProvider;
 
@@ -48,7 +49,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                firebaseSearch();
+                String searchText = mInputSearch.getText().toString();
+
+                firebaseSearch(searchText);
 
             }
         });
@@ -56,14 +59,16 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void firebaseSearch() {
+    private void firebaseSearch(String searchText) {
+
+        Query firebaseQuery = mSearchDatabse.orderByChild("name").startAt(searchText).endAt(searchText + "\uf8ff");
 
         FirebaseRecyclerAdapter<Search, SearchViewHolder> firebaseRecyclerAdapter = new FirebaseRecyclerAdapter<Search, SearchViewHolder>(
 
                 Search.class,
                 R.layout.list_layout,
                 SearchViewHolder.class,
-                mSearchDatabse
+                firebaseQuery
 
 
         ) {
