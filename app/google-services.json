@@ -1,0 +1,167 @@
+{
+  "project_info": {
+    "project_number": "657145736506",
+    "firebase_url": "https://tripgo-2c0f6.firebaseio.com",
+    "project_id": "tripgo-2c0f6",
+    "storage_bucket": "tripgo-2c0f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657145736506:android:e249faeec165f199",
+        "android_client_info": {
+          "package_name": "com.example.k.scf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657145736506-6f2fgh180o86arau0cpto30ror0cvcaf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.k.scf",
+            "certificate_hash": "d467ab4336f46385f684ba0f3616afbbb6435644"
+          }
+        },
+        {
+          "client_id": "657145736506-b542g8cr5aa5m54r7agatfnn4fc8q9kh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtScIpmsK3R2XHziFYo24T9CENSdGZRh8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657145736506-b542g8cr5aa5m54r7agatfnn4fc8q9kh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657145736506:android:4ecec7564500fe1e",
+        "android_client_info": {
+          "package_name": "com.example.k.sf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657145736506-p7ojn4u3p5kk189klcu7gsorrpe7tli9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.k.sf",
+            "certificate_hash": "d467ab4336f46385f684ba0f3616afbbb6435644"
+          }
+        },
+        {
+          "client_id": "657145736506-b542g8cr5aa5m54r7agatfnn4fc8q9kh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtScIpmsK3R2XHziFYo24T9CENSdGZRh8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657145736506-b542g8cr5aa5m54r7agatfnn4fc8q9kh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657145736506:android:6b6843dc7c850fdd",
+        "android_client_info": {
+          "package_name": "com.kadek.tripgo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657145736506-njlpqt3qkcrqgm9qnnov9nin04rq4s61.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kadek.tripgo",
+            "certificate_hash": "ddcc3e327414a123c59f3a271476effefa180943"
+          }
+        },
+        {
+          "client_id": "657145736506-d5c98nt3shechq92h5pojeasnq8iobn0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kadek.tripgo",
+            "certificate_hash": "5fb57b906ef6540dbe08bbbb14625ff2939c8b64"
+          }
+        },
+        {
+          "client_id": "657145736506-6k4ukp9djgep1e5bijtiqinmgntnqvdo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kadek.tripgo",
+            "certificate_hash": "549aa99815365eda570ade8e11e727f97dd39438"
+          }
+        },
+        {
+          "client_id": "657145736506-en5ausls1t98bmhcfrf2f9c9e24g514b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kadek.tripgo",
+            "certificate_hash": "d467ab4336f46385f684ba0f3616afbbb6435644"
+          }
+        },
+        {
+          "client_id": "657145736506-b542g8cr5aa5m54r7agatfnn4fc8q9kh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtScIpmsK3R2XHziFYo24T9CENSdGZRh8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657145736506-b542g8cr5aa5m54r7agatfnn4fc8q9kh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
