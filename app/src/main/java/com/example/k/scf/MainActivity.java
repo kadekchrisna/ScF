@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void firebaseSearch(String searchText) {
 
-        Query firebaseQuery = mSearchDatabse.orderByChild("name").startAt(searchText).endAt(searchText + "\uf8ff");
+        Query firebaseQuery = mSearchDatabse.orderByChild("name").startAt(searchText.toUpperCase()).endAt(searchText.toLowerCase() + "\uf8ff");
 
         FirebaseRecyclerAdapter<Search, SearchViewHolder> firebaseRecyclerAdapter = new FirebaseRecyclerAdapter<Search, SearchViewHolder>(
 
